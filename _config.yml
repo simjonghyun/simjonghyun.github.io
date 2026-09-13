@@ -23,7 +23,7 @@ repository               : "simjonghyun/simjonghyun.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jhsim_ps.jpeg"
+  avatar           : "jhsim_ps.png"
   name             : "Jonghyun Sim"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate researcher"
