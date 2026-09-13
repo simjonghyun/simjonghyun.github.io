@@ -1,0 +1,28 @@
+{% assign document_path = '/documents/' | append: include.slug | append: '.docx' %}
+{% assign document_file = site.static_files | where: 'path', document_path | first %}
+
+<div class="document-reader">
+  <div class="document-toolbar" aria-label="Document actions">
+    {% if document_file %}
+      <a class="btn btn--primary document-download" href="{{ document_path | relative_url }}" download>
+        <i class="fas fa-download" aria-hidden="true"></i>
+        Download {{ include.label }} (.docx)
+      </a>
+    {% else %}
+      <span class="btn document-download is-disabled" aria-disabled="true">
+        <i class="fas fa-download" aria-hidden="true"></i>
+        Download {{ include.label }} (.docx)
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="document-body">
+    {% if include.slug == 'sop' %}
+      {% include generated/sop.html %}
+    {% elsif include.slug == 'ps' %}
+      {% include generated/ps.html %}
+    {% elsif include.slug == 'cv' %}
+      {% include generated/cv.html %}
+    {% endif %}
+  </div>
+</div>
