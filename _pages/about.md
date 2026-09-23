@@ -8,11 +8,8 @@ redirect_from:
 ---
 
 **Name:** Jonghyun Sim
-
-**Research Interests:** Sequential Decision-Making under Uncertainty for Fault Diagnosis and Predictive Maintenance
-
-**Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Finance and Statistics.
-
+**Research Interests:** Sequential Decision Making under Uncertainty for Fault Diagnosis and Predictive Maintenance
+**Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics.
 **Technical Skills:** Python, R, LaTeX
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
