@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,7 +17,8 @@ redirect_from:
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
   <h2 id="research-highlights-title">Research Highlights</h2>
-  <p class="research-highlights__intro">In my current research, we introduce a distribution-aware criterion—the <strong>dominance score</strong>—and study how to identify the arm that maximizes it under bandit feedback.</p>
+  <p class="research-highlights__intro">In my current research, we introduce the **dominance score**, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
+  
 
   <figure class="research-slide">
     <a href="{{ '/images/research/dominance-score-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the dominance score overview slide at full size">
