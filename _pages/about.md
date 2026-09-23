@@ -17,7 +17,7 @@ redirect_from:
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
   <h2 id="research-highlights-title">Research Highlights</h2>
-  <p class="research-highlights__intro">In my current research, we introduce the **dominance score**, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
+  <p class="research-highlights__intro">In my current research, we introduce the <strong>dominance score</strong>, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
   
 
   <figure class="research-slide">
