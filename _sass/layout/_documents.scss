@@ -137,6 +137,23 @@
       border-top-color: var(--global-border-color);
     }
 
+    /* Use one clear rule below each all-caps CV section heading. */
+    hr:has(+ p > strong:only-child) {
+      display: none;
+    }
+
+    p:has(> strong:only-child):has(+ hr) {
+      margin: 1.45rem 0 0;
+      font-family: $sans-serif;
+      letter-spacing: 0.01em;
+    }
+
+    p:has(> strong:only-child):has(+ hr) + hr {
+      margin: 0.3rem 0 0.75rem;
+      border: 0;
+      border-top: 1.5px solid var(--global-text-color);
+    }
+
     a {
       overflow-wrap: anywhere;
     }
