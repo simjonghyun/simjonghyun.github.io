@@ -41,6 +41,12 @@ convert_document() {
   elif [[ "${slug}" == "ps" ]] && head -n 1 "${output_path}" | grep -Eq '^<p><strong><u>(PS|Personal|Personal Statement)</u></strong></p>$'; then
     tail -n +2 "${output_path}" > "${temporary_path}"
     mv "${temporary_path}" "${output_path}"
+  elif [[ "${slug}" == "cv" ]]; then
+    # Convert the Word CV's major all-caps labels into semantic section
+    # headings so the website can consistently separate each section.
+    sed -E 's#<p><strong>(RESEARCH INTERESTS|EDUCATION|PUBLICATIONS &amp; PREPRINTS|RESEARCH EXPERIENCE|FUNDED RESEARCH PROJECTS|PROJECTS|TEACHING EXPERIENCE|WORK EXPERIENCE|VOLUNTEER EXPERIENCE|ADDITIONAL INFORMATION|PROGRAMMING SKILLS)</strong></p>#<h2 class="cv-section-title">\1</h2>#g' \
+      "${output_path}" > "${temporary_path}"
+    mv "${temporary_path}" "${output_path}"
   fi
 }
 
