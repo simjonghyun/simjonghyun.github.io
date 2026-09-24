@@ -7,4 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include document-reader.html slug="cv" label="CV" %}
+<div class="cv-document">
+  {% include document-reader.html slug="cv" label="CV" %}
+</div>
