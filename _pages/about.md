@@ -11,7 +11,10 @@ redirect_from:
 **Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
-<h2 id="research-highlights-title">Research Highlights</h2>
+<div class="research-highlights__heading">
+<h2 id="research-highlights-title">Research Highlights <span>– Dominant Arm Identification</span></h2>
+<a class="research-highlight__more" href="{{ '/publication/2026-dai' | relative_url }}" aria-label="Read more about Dominant Arm Identification">More <span aria-hidden="true">→</span></a>
+</div>
 
 <div class="research-highlight-lead">
 <figure class="research-slide research-slide--overview">
@@ -21,11 +24,7 @@ redirect_from:
 </figure>
 
 <div class="research-highlight-lead__text">
-<p class="research-highlight-lead__label">Current Research</p>
-<h3>Dominant Arm Identification</h3>
 <p>In my current research, we introduce the <strong>dominance score</strong>, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
-
-<a class="research-highlight__more" href="{{ '/publication/2026-dai' | relative_url }}" aria-label="Read more about Dominant Arm Identification">More <span aria-hidden="true">→</span></a>
 </div>
 </div>
 
