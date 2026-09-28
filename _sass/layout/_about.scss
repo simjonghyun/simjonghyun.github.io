@@ -47,6 +47,7 @@
 }
 
 .research-highlight-lead {
+  position: relative;
   margin: 1em 0 1.8em;
 
   .research-slide {
@@ -148,6 +149,13 @@
     margin-top: 0;
     font-size: 0.94rem;
   }
+
+  .research-highlight-lead > .research-highlight__more {
+    position: absolute;
+    top: -2.8rem;
+    right: calc(13rem + 0.7rem);
+    margin: 0;
+  }
 }
 
 @include breakpoint(max-width $small) {
@@ -169,7 +177,9 @@
     margin: 1em 0;
   }
 
-  .research-highlight__more {
+  .research-highlight-lead > .research-highlight__more {
+    position: static;
+    margin: 0.8em 0 0.9em;
     padding: 0.62em 0.95em;
   }
 }
