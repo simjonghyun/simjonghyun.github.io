@@ -29,7 +29,10 @@
     margin: 0;
     line-height: 1.25;
 
-    span {
+    > .research-highlights__topic {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
       color: var(--global-text-color);
       font-size: 0.72em;
       font-weight: 600;
@@ -127,12 +130,12 @@
  * Preserve the image width and use the open space on the right for the copy.
  * Below 1280px, the description moves below the image.
  */
-@media (min-width: 80em) {
+@media (min-width: 75em) {
   .research-highlight-lead {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 13rem;
     gap: 0.7rem;
-    align-items: center;
+    align-items: start;
     width: calc(100% + 13.7rem);
 
     .research-slide {
@@ -156,12 +159,9 @@
     align-items: flex-start;
     gap: 0.55rem;
 
-    h2 {
-      display: block;
-
-      span {
-        white-space: normal;
-      }
+    h2 > .research-highlights__topic {
+      flex-wrap: wrap;
+      white-space: normal;
     }
   }
 
