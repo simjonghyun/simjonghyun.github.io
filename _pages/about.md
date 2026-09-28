@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**Research Interests:** Sequential Decision Making under Uncertainty for Fault Diagnosis and Predictive Maintenance
+**Research Interests:** Sequential Decision Making under Uncertainty for Fault Diagnosis and Predictive Maintenance, Manufacturing Automation and Control.
 
 **Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
 
