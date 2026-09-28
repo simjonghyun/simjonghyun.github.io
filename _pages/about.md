@@ -12,8 +12,7 @@ redirect_from:
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
 <div class="research-highlights__heading">
-<h2 id="research-highlights-title">Research Highlights <span>– Dominant Arm Identification</span></h2>
-<a class="research-highlight__more" href="{{ '/publication/2026-dai' | relative_url }}" aria-label="Read more about Dominant Arm Identification">More <span aria-hidden="true">→</span></a>
+<h2 id="research-highlights-title">Research Highlights <span class="research-highlights__topic">– Dominant Arm Identification <a class="research-highlight__more" href="{{ '/publication/2026-dai' | relative_url }}" aria-label="Read more about Dominant Arm Identification">More <span aria-hidden="true">→</span></a></span></h2>
 </div>
 
 <div class="research-highlight-lead">
