@@ -1,31 +1,39 @@
 ---
 permalink: /
-title: 
+title:
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 **Research Interests:** Sequential Decision Making under Uncertainty for Fault Diagnosis and Predictive Maintenance
 
-**Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr))
+**Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
 
 **Technical Skills:** Python, R, LaTeX
 
 <section class="research-highlights" aria-labelledby="research-highlights-title">
-  <h2 id="research-highlights-title">Research Highlights</h2>
-  <p class="research-highlights__intro">In my current research, we introduce the <strong>dominance score</strong>, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
-  
+<h2 id="research-highlights-title">Research Highlights</h2>
 
-  <figure class="research-slide">
-    <a href="{{ '/images/research/dominance-score-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the dominance score overview slide at full size">
-      <img src="{{ '/images/research/dominance-score-overview.png' | relative_url }}" alt="Slide explaining how crossing reward distributions can make the largest-mean arm differ from the arm selected by the dominance score">
-    </a>
-  </figure>
+<div class="research-highlight-lead">
+<figure class="research-slide research-slide--overview">
+<a href="{{ '/images/research/dominance-score-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the dominance score overview at full size">
+<img src="{{ '/images/research/dominance-score-overview.png' | relative_url }}" alt="Overview showing how crossing reward distributions can make the largest-mean arm differ from the arm selected by the dominance score">
+</a>
+</figure>
 
-  <figure class="research-slide">
-    <a href="{{ '/images/research/drdse-results.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the DRDSE results slide at full size">
-      <img src="{{ '/images/research/drdse-results.png' | relative_url }}" alt="Slide comparing the sample complexity of DRDSE and an average-estimator baseline in Gaussian and biomedical settings">
-    </a>
-  </figure>
+<div class="research-highlight-lead__text">
+<p class="research-highlight-lead__label">Current Research</p>
+<h3>Dominant Arm Identification</h3>
+<p>In my current research, we introduce the <strong>dominance score</strong>, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
+
+<a class="research-highlight__more" href="{{ '/publication/2026-dai' | relative_url }}" aria-label="Read more about Dominant Arm Identification">More <span aria-hidden="true">→</span></a>
+</div>
+</div>
+
+<figure class="research-slide research-slide--results">
+<a href="{{ '/images/research/drdse-results.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open the DRDSE results at full size">
+<img src="{{ '/images/research/drdse-results.png' | relative_url }}" alt="Comparison of the sample complexity of DRDSE and an average-estimator baseline in Gaussian and biomedical settings">
+</a>
+</figure>
 </section>
