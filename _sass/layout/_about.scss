@@ -108,9 +108,9 @@
 
 /*
  * Preserve the current image width and use only the free space on the right
- * for the description. On narrower screens, the text remains below the image.
+ * for the description. Below 1280px, the text remains below the image.
  */
-@media (min-width: 78em) {
+@media (min-width: 80em) {
   .research-highlight-lead {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 13rem;
@@ -132,24 +132,13 @@
   }
 }
 
-@include breakpoint(max-width $medium) {
-  .research-highlight-lead {
-    display: block;
-    width: 100%;
-  }
-
-  .research-highlight-lead__text {
-    margin-top: 1em;
-
-    h3 {
-      font-size: 1.15rem;
-    }
-  }
-}
-
 @include breakpoint(max-width $small) {
   .research-highlights {
     margin-top: 2em;
+  }
+
+  .research-highlight-lead__text h3 {
+    font-size: 1.15rem;
   }
 
   .research-slide {
