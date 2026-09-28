@@ -2,8 +2,8 @@
    ABOUT PAGE
    ========================================================================== */
 
-/* Keep the larger rectangular profile photo specific to the home page. */
-#main:has(.research-highlights) .author__avatar img {
+/* Keep the larger rectangular profile photo consistent across all pages. */
+.author__avatar img {
   border-radius: $border-radius;
 
   @include breakpoint($large) {
