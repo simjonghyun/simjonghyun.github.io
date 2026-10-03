@@ -1,5 +1,8 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
+@charset "utf-8";
 
 /*
  * This file controls what is imported from /_sass
@@ -34,6 +37,7 @@
 
     "layout/page",
     "layout/about",
+    "layout/research",
     "layout/projects",
     "layout/documents",
     "layout/archive",
