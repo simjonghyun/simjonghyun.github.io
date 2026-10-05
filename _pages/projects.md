@@ -2,7 +2,7 @@
 layout: single
 title: "Selected Projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 ---
 
 <p class="selected-projects__intro">
