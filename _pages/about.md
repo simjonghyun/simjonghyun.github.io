@@ -10,6 +10,7 @@ redirect_from:
 
 **Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
 
+**Technical Skills:** Python, R, LaTeX
 <section class="research-highlights" aria-labelledby="research-highlights-title">
 <div class="research-highlights__heading">
 <h2 id="research-highlights-title">Research Highlights <span class="research-highlights__topic">– Dominant Arm Identification</span></h2>
