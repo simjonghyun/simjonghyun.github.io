@@ -2,7 +2,7 @@
 layout: single
 title: "Research"
 permalink: /research/
-author_profile: false
+author_profile: true
 ---
 
 <section class="research-index" aria-label="Research projects">
@@ -24,7 +24,7 @@ author_profile: false
     </div>
 
     <figure class="research-card__figure">
-      <img src="{{ '/images/research/projected-sampling-ab.svg' | relative_url }}" alt="Projected sampling probabilities and equal-budget parameter RMSE comparison for a high-dimensional bandit instance">
+      <img src="{{ '/images/research/projected-sampling-ab-clean.svg' | relative_url }}" alt="Projected sampling probabilities and equal-budget parameter RMSE comparison for a high-dimensional bandit instance">
     </figure>
   </article>
 </section>

@@ -7,8 +7,8 @@ author_profile: true
 
 <article class="research-detail">
   <figure class="research-detail__figure">
-    <a href="{{ '/images/research/projected-sampling-ab.svg' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/images/research/projected-sampling-ab.svg' | relative_url }}" alt="Projected sampling probabilities and equal-budget parameter RMSE comparison for a high-dimensional bandit instance">
+    <a href="{{ '/images/research/projected-sampling-ab-clean.svg' | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/images/research/projected-sampling-ab-clean.svg' | relative_url }}" alt="Projected sampling probabilities and equal-budget parameter RMSE comparison for a high-dimensional bandit instance">
     </a>
     <figcaption>Projected sampling probabilities and parameter estimation error under the same observation budget.</figcaption>
   </figure>
