@@ -8,7 +8,6 @@ author_profile: true
 <section class="research-index" aria-label="Research projects">
   <article class="research-card">
     <div class="research-card__content">
-      <p class="research-card__label">Sequential Learning from Partial Feedback</p>
       <h2>Dominant Arm Identification with Mixing and Recycling Observed Samples</h2>
       <a class="btn btn--primary research-card__more" href="{{ '/research/dominant-arm-identification/' | relative_url }}">More</a>
     </div>
@@ -20,7 +19,6 @@ author_profile: true
 
   <article class="research-card">
     <div class="research-card__content">
-      <p class="research-card__label">High-Dimensional Bandits</p>
       <h2>Best-Arm Identification with High-Dimensional Covariates</h2>
       <a class="btn btn--primary research-card__more" href="{{ '/research/best-arm-high-dimensional-covariates/' | relative_url }}">More</a>
     </div>

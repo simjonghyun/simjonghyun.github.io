@@ -10,7 +10,7 @@ author_profile: true
     <a href="{{ '/images/research/projected-sampling-ab.svg' | relative_url }}" target="_blank" rel="noopener">
       <img src="{{ '/images/research/projected-sampling-ab.svg' | relative_url }}" alt="Projected sampling probabilities and equal-budget parameter RMSE comparison for a high-dimensional bandit instance">
     </a>
-    <figcaption>Controlled synthetic instance showing the sampling allocation and equal-budget parameter RMSE comparison.</figcaption>
+    <figcaption>Projected sampling probabilities and parameter estimation error under the same observation budget.</figcaption>
   </figure>
 
   <ul class="research-detail__points">
