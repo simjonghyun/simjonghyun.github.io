@@ -2,7 +2,7 @@
 layout: single
 title: "Research"
 permalink: /research/
-author_profile: true
+author_profile: false
 ---
 
 <section class="research-index" aria-label="Research projects">
