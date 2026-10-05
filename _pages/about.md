@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**Research Interests:** Sequential Learning and Optimization under Uncertainty, Robust and Stochastic Optimization, High-Dimensional Statistics
+**Research Interests:** Sequential Decsion-Making under Uncertainty, Robust and Stochastic Optimization, High-Dimensional Statistics
 
-**Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Global Finance and Applied Statistics. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
+**Education:** Undergraduate student at [Chung-Ang University](https://www.cau.ac.kr/), double-majoring in Applied Statistics and Global Finance. (Advisor: [Wonyoung Kim](https://www.siai.cau.ac.kr/))
 
 **Technical Skills:** Python, R, LaTeX
 <section class="research-highlights" aria-labelledby="research-highlights-title">
