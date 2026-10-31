@@ -41,8 +41,12 @@ convert_document() {
   elif [[ "${slug}" == "ps" ]] && head -n 1 "${output_path}" | grep -Eq '^<p><strong><u>(PS|Personal|Personal Statement)</u></strong></p>$'; then
     tail -n +2 "${output_path}" > "${temporary_path}"
     mv "${temporary_path}" "${output_path}"
+  elif [[ "${slug}" == "diversity" ]] && head -n 1 "${output_path}" | grep -Eq '^<p><strong><u>(DIVERSITY|Diversity|Diversity Statement)</u></strong></p>$'; then
+    tail -n +2 "${output_path}" > "${temporary_path}"
+    mv "${temporary_path}" "${output_path}"
   fi
 }
 
 convert_document "sop"
 convert_document "ps"
+convert_document "diversity"

@@ -11,6 +11,9 @@ main:
   - title: "SOP"
     url: /sop/
 
+  - title: "Diversity"
+    url: /diversity/
+
   - title: "Research"
     url: /research/
 
