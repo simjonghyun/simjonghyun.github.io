@@ -1,0 +1,23 @@
+{% assign slide_descriptions = "Motivations for ranking arms by their probability of beating every other arm|Problem formulation comparing best-arm identification by mean reward with identification by dominance score|Proposed estimation procedure using exploration, recycling, mixing, and doubly robust estimation|Confidence bounds, elimination rule, and sample complexity for dominant arm identification|Numerical experiments comparing DRDSE and the average estimator in Gaussian and biomedical simulations" | split: "|" %}
+{% if include.carousel %}
+<div class="research-slide-gallery" data-slide-gallery>
+  <div class="research-slide-gallery__track" data-slide-track tabindex="0" role="region" aria-label="Dominant Arm Identification slides">
+{% endif %}
+{% for description in slide_descriptions %}
+  {% assign slide_path = '/images/research/dai-contact-0' | append: forloop.index | append: '.png' | relative_url %}
+  <figure class="research-presentation__slide">
+    <a href="{{ slide_path }}" target="_blank" rel="noopener" aria-label="Open slide {{ forloop.index }} at full size: {{ description | escape }}">
+      <img src="{{ slide_path }}" width="1600" height="861"{% unless forloop.first %} loading="lazy"{% endunless %} alt="{{ description | escape }}">
+    </a>
+  </figure>
+{% endfor %}
+{% if include.carousel %}
+  </div>
+  <div class="research-slide-gallery__controls" data-slide-controls hidden>
+    <button type="button" data-slide-prev aria-label="Previous slide">←</button>
+    <span role="status" data-slide-status>1 / {{ slide_descriptions.size }}</span>
+    <button type="button" data-slide-next aria-label="Next slide">→</button>
+  </div>
+</div>
+<script src="{{ '/assets/js/research-slide-gallery.js' | relative_url }}" defer></script>
+{% endif %}
