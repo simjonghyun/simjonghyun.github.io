@@ -17,7 +17,7 @@ redirect_from:
 <a class="research-highlight__more" href="{{ '/publication/2026-dai' | relative_url }}" aria-label="Read more about Dominant Arm Identification">More <span aria-hidden="true">→</span></a>
 </div>
 
-<p class="research-highlights__intro">In my current research, we introduce the <strong>dominance score</strong>, a criterion based on local distributional dominance, and develop an algorithm to identify the arm with the highest score under bandit feedback.</p>
+<p class="research-highlights__intro">Standard best-arm identification ranks arms by mean reward. We introduce the <strong>dominance score</strong>, which compares arms’ reward distributions across different regions of the reward space.</p>
 
 {% include dai-slides.html carousel=true %}
 </section>
